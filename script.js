@@ -1,4 +1,4 @@
-function carregar() {
+window.setInterval(function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('img')
 
@@ -21,4 +21,4 @@ function carregar() {
         img.src = 'img/night.png'
         document.body.style.background = '#111728'
     }
-}
+})
