@@ -8,7 +8,7 @@ window.setInterval(function carregar() {
 
     msg.innerHTML = `<strong>AGORA SÃO ${hora} HORAS E ${minutos} MINUTOS</strong><br><br>`
 
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 6 && hora < 12) {
         // BOM DIA!
         img.src = 'img/morning.png'
         document.body.style.background = '#fdca93'
